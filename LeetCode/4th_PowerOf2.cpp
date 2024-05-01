@@ -29,3 +29,5 @@ public:
         return false;
     }
 };
+
+//we can also use this approach---->we can find the no. of set bits in the number if it is equal to 1 then yes it is power of 2 otherwie not

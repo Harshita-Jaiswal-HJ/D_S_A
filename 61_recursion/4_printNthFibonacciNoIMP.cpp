@@ -1,3 +1,5 @@
+//Time complexity=O(log n)
+//petals
 # include <iostream>
 using namespace std;
 int fibonacci(int n){
