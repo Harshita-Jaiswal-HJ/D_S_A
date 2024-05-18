@@ -6,7 +6,7 @@ int firstOcurr(vector<int>& arr, int n, int k) {
     int e = n - 1;
     int ans = -1;
     while (s <= e) {
-        int mid = s + (e - s) / 2;
+        int mid = s + (e - s) / 2;//taaki badi value p int ki range se bahar na ho mid
         if (arr[mid] == k) {
             ans = mid;
             e = mid - 1;
